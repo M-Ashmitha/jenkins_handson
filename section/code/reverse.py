@@ -1,4 +1,7 @@
 import os
-list1 = [2,3,4,5,6]
-list1.reverse()
-print("The reverse list is:",list1)
+def rev():
+  list1 = [2,3,4,5,6]
+  list1.reverse()
+  return list1
+result = rev()
+print("The reverse list is:",result)
